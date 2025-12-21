@@ -81,9 +81,10 @@
     echo "<br>";
     function printValue()
     {
-        global $val2;
+        
+        ECHO "MEOW IS PRINTING MEOW";
         $a=10;
-        echo ($val2);
+        echo ($GLOBALS["val2"]);
     }
 
     printValue();
