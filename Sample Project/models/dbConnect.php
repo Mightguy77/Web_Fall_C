@@ -19,12 +19,12 @@
         if(!$conn)
         {
             echo mysqli_connect_error();
-            echo "not connected";
+            //echo "not connected";
         }
 
         else
         {
-            echo "connection succefully establishe<br>";
+            //echo "connection succefully establishe<br>";
             
             return $conn;
         }
